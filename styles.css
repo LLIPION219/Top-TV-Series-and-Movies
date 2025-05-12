@@ -1,0 +1,125 @@
+body {
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background: linear-gradient(to bottom, #0f0f0f, #1c1c1c);
+    color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+    color: #f8c42f;
+    text-shadow: 1px 1px 3px #000;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f8c42f;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f8c42f;
+    color: #111;
+    box-shadow: 0 0 10px #f8c42f;
+}
+
+section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #333;
+}
+
+article {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #f8c42f;
+    color: #111;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #fff176;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    background-color: #111;
+    color: #f8c42f;
+    padding: 20px;
+    font-weight: bold;
+    border-top: 2px solid #333;
+}
+
+a.trailer-button {
+    display: inline-block;
+    background-color: #f8c42f;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+a.trailer-button:hover {
+    background-color: #ffe25e;
+    transform: scale(1.05);
+    color: #000;
+}
+
+header {
+    background: linear-gradient(to right, #111 0%, #1a1a1a 100%);
+    padding: 20px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    color: #f8c42f;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+}
+
+main {
+    padding-top: 160px;
+}
